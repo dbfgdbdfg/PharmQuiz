@@ -182,6 +182,627 @@ export const practiceQuestions = [
     answer: 1,
     explanation: "앞부분은 자료와 일치하지만 자궁근수축으로 유산 가능성이 있어 임부에게 금기라고 정리되어 있음."
   },
+    // ============================================================
+    // 생약학 추가 연습 문제 41개
+    // ID: p-pg11 ~ p-pg51
+    // week: 4 (7~8주차)
+    // ============================================================
+
+    {
+    id: 'p-pg11',
+    subject: 'pg',
+    week: 4,
+    question: '다음 생약에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        '당삼의 기원식물은 Codonopsis pilosula이며 초롱꽃과에 속한다.',
+        '당삼의 주요 성분인 lobetyolin은 sesquiterpenoid 계열로 분류된다.',
+        '당삼은 강장, 조혈, 면역조절 및 건위 작용을 나타낸다.',
+        '대극은 사하작용과 이뇨작용을 나타내는 준하약이다.',
+        '대극은 감초와 배합하면 독성이 감소하므로 임신부에게 권장된다.'
+    ],
+    answer: 4,
+    explanation: '대극은 감초와 배합 시 독성이 증가할 수 있으며 임신 중 사용이 금기인 생약이다. 감초가 모든 생약의 독성을 완화한다는 식의 일반화가 함정이다.'
+    },
+    {
+    id: 'p-pg12',
+    subject: 'pg',
+    week: 4,
+    question: '데리스근(Derridis Radix)의 주요 성분과 작용기전이 올바르게 연결된 것은?',
+    options: [
+        'Rotenone — mitochondrial complex I 억제',
+        'Rotenone — Na⁺ channel 지속적 활성화',
+        'Reserpine — mitochondrial complex I 억제',
+        'Stemonine — VMAT 억제',
+        'Kaurenoic acid — acetylcholinesterase 억제'
+    ],
+    answer: 0,
+    explanation: '데리스근의 rotenone은 미토콘드리아 전자전달계 complex I을 억제하여 ATP 생성을 방해한다. Rotenone은 rotenoid 계열 성분이다.'
+    },
+    {
+    id: 'p-pg13',
+    subject: 'pg',
+    week: 4,
+    question: '독활에 대한 설명으로 옳은 것은?',
+    options: [
+        '국화과 식물의 뿌리이며 costunolide를 지표성분으로 한다.',
+        'Aralia continentalis의 뿌리로, kaurenoic acid 및 continentalic acid를 함유한다.',
+        'Dipsacus asperoides의 뿌리로, asperosaponin VI를 함유한다.',
+        '미나리과 식물로 saikosaponin a가 주요 성분이다.',
+        '초롱꽃과 식물로 lobetyolin을 함유한다.'
+    ],
+    answer: 1,
+    explanation: '독활은 두릅나무과 Aralia continentalis이며 diterpenoid 계열의 kaurenoic acid와 continentalic acid가 중요하다.'
+    },
+    {
+    id: 'p-pg14',
+    subject: 'pg',
+    week: 4,
+    question: '목향의 성분 및 약리작용에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        '국화과에 속하는 생약이다.',
+        'Costunolide는 sesquiterpene lactone 계열이다.',
+        'Dehydrocostuslactone을 함유한다.',
+        '건위 및 담즙분비 촉진 작용과 관련된다.',
+        '주요 활성성분은 indole alkaloid인 reserpine이다.'
+    ],
+    answer: 4,
+    explanation: 'Reserpine은 인도사목의 indole alkaloid이다. 목향은 costunolide, dehydrocostuslactone 등 sesquiterpene lactone이 핵심이다.'
+    },
+    {
+    id: 'p-pg15',
+    subject: 'pg',
+    week: 4,
+    question: '방풍 및 그 유사 생약에 대한 설명으로 옳은 것은?',
+    options: [
+        '원방풍의 기원식물은 Glehnia littoralis이다.',
+        '해방풍은 Peucedanum japonicum을 기원으로 한다.',
+        '식방풍은 Saposhnikovia divaricata를 기원으로 한다.',
+        '원방풍은 Saposhnikovia divaricata이며 chromone 계열 성분을 함유한다.',
+        '방풍은 주로 dammarane형 saponin을 함유한다.'
+    ],
+    answer: 3,
+    explanation: '원방풍=Saposhnikovia divaricata, 해방풍=Glehnia littoralis, 식방풍=Peucedanum japonicum. 방풍의 chromone 계열이 주요 구별 포인트다.'
+    },
+    {
+    id: 'p-pg16',
+    subject: 'pg',
+    week: 4,
+    question: '백두옹에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        '기원식물은 Pulsatilla koreana이다.',
+        '미나리아재비과에 속한다.',
+        'Protoanemonin은 독성과 관련된 성분이다.',
+        'Deoxypodophyllotoxin은 항종양 활성과 관련된다.',
+        '주요 성분인 stemonine이 호흡중추를 억제하여 진해작용을 나타낸다.'
+    ],
+    answer: 4,
+    explanation: 'Stemonine은 백부근의 alkaloid이다. 백두옹에서는 ranunculin, protoanemonin, anemonin 및 deoxypodophyllotoxin을 구별한다.'
+    },
+    {
+    id: 'p-pg17',
+    subject: 'pg',
+    week: 4,
+    question: '백미와 백부근을 비교한 설명으로 옳은 것은?',
+    options: [
+        '백미는 Stemona japonica의 뿌리이며 stemonine을 함유한다.',
+        '백부근은 Cynanchum atratum의 뿌리로 pregnane glycoside를 함유한다.',
+        '백미의 pregnane glycoside는 acetylcholinesterase 억제와 관련된 연구가 있다.',
+        '백부근의 대표 성분은 gentiopicroside이다.',
+        '백미와 백부근은 모두 원지과에 속한다.'
+    ],
+    answer: 2,
+    explanation: '백미=Cynanchum atratum, pregnane glycoside. 백부근=Stemona spp., stemonine/neostemonine alkaloid. 백미의 AChE 억제는 전임상 연구 수준의 기전이다.'
+    },
+    {
+    id: 'p-pg18',
+    subject: 'pg',
+    week: 4,
+    question: '백지에 관한 설명으로 옳지 않은 것은?',
+    options: [
+        '기원식물은 Angelica dahurica이다.',
+        'Furanocoumarin 계열 성분을 함유한다.',
+        'Imperatorin과 oxypeucedanin이 주요 성분이다.',
+        '중추신경계 자극 및 고용량에서 경련 유발 가능성이 있다.',
+        '시호와 마찬가지로 saikosaponin a를 대표 지표성분으로 한다.'
+    ],
+    answer: 4,
+    explanation: '시호는 saikosaponin a를 함유하는 미나리과 생약이지만, 백지는 furanocoumarin 계열이 특징이다.'
+    },
+    {
+    id: 'p-pg19',
+    subject: 'pg',
+    week: 4,
+    question: '부자, 오두 및 초오에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        '부자는 Aconitum carmichaeli의 자근이다.',
+        '오두는 Aconitum carmichaeli의 모근이다.',
+        '초오는 Aconitum속 식물을 기원으로 한다.',
+        'Aconitine류는 독성이 강하므로 법제가 중요하다.',
+        '부자와 오두는 기원식물의 속이 완전히 다르다.'
+    ],
+    answer: 4,
+    explanation: '부자와 오두는 모두 Aconitum carmichaeli에서 유래하지만 사용 부위가 자근과 모근으로 다르다.'
+    },
+    {
+    id: 'p-pg20',
+    subject: 'pg',
+    week: 4,
+    question: '부자의 법제와 독성 변화에 대한 설명으로 가장 적절한 것은?',
+    options: [
+        'Aconine → benzoylaconine → aconitine으로 전환되어 독성이 감소한다.',
+        'Aconitine → benzoylaconine → aconine으로 가수분해되어 독성이 감소한다.',
+        'Aconitine은 VMAT을 억제하여 저혈압을 유발한다.',
+        'Higenamine은 강심배당체에 속한다.',
+        '법제는 aconitine의 독성을 높여 약효를 강화하기 위한 과정이다.'
+    ],
+    answer: 1,
+    explanation: 'Aconitine은 가수분해되면서 benzoylaconine, aconine으로 바뀌어 독성이 낮아진다. Aconitine류는 전압개폐성 Na⁺ channel의 비정상적 활성화와 관련되어 부정맥을 유발할 수 있다.'
+    },
+    {
+    id: 'p-pg21',
+    subject: 'pg',
+    week: 4,
+    question: '다음 중 강심작용과 관련된 성분이지만 강심배당체(cardiac glycoside)는 아닌 것은?',
+    options: [
+        'Digoxin',
+        'Digitoxin',
+        'Ouabain',
+        'Higenamine',
+        'Convallatoxin'
+    ],
+    answer: 3,
+    explanation: 'Higenamine은 부자 및 오약 등에 존재하는 alkaloid이며 강심작용과 관련된다. 강심작용이 있다고 모두 강심배당체인 것은 아니다.'
+    },
+    {
+    id: 'p-pg22',
+    subject: 'pg',
+    week: 4,
+    question: '삼칠에 대한 설명으로 옳은 것은?',
+    options: [
+        'Panax notoginseng을 기원으로 하며 지혈작용과 관련된다.',
+        '원지과 식물로 senegin을 함유한다.',
+        '주성분은 indole alkaloid인 ajmaline이다.',
+        '기원식물은 Panax ginseng의 증숙근이다.',
+        '대표 성분은 furanocoumarin인 imperatorin이다.'
+    ],
+    answer: 0,
+    explanation: '삼칠은 두릅나무과 Panax notoginseng으로, notoginsenoside 등 dammarane형 saponin과 지혈작용이 핵심이다.'
+    },
+    {
+    id: 'p-pg23',
+    subject: 'pg',
+    week: 4,
+    question: '세네가와 원지에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        '두 생약 모두 원지과에 속한다.',
+        '세네가의 주요 성분은 senegin이다.',
+        '원지의 주요 성분은 onjisaponin이다.',
+        '두 생약 모두 triterpenoidal saponin 계열 성분을 함유한다.',
+        '세네가의 senegin은 dammarane형 saponin이며 인삼의 ginsenoside와 동일한 골격이다.'
+    ],
+    answer: 4,
+    explanation: '세네가의 senegin은 oleanane형 triterpenoidal saponin이다. 인삼의 ginsenoside는 대표적으로 dammarane형이다.'
+    },
+    {
+    id: 'p-pg24',
+    subject: 'pg',
+    week: 4,
+    question: '다음 생약과 복합제·처방의 연결로 옳지 않은 것은?',
+    options: [
+        '세네가 — 용각산',
+        '원지 — 총명탕',
+        '삼칠 — 복방단삼적환',
+        '위령선 — 조인스정',
+        '백지 — 용각산의 대표 구성 생약'
+    ],
+    answer: 4,
+    explanation: '용각산 관련 구성 생약으로 길경·세네가·행인·감초가 정리되어 있다. 백지는 해당 연결에 해당하지 않는다.'
+    },
+    {
+    id: 'p-pg25',
+    subject: 'pg',
+    week: 4,
+    question: '세신의 안전성에 관한 설명으로 옳은 것은?',
+    options: [
+        'Aristolochic acid는 신독성 및 발암성과 관련된다.',
+        'Methyleugenol은 indole alkaloid 계열이다.',
+        '세신은 원지과에 속한다.',
+        'Aristolochic acid는 법제 시 반드시 무독성 ginsenoside로 전환된다.',
+        '세신의 주요 약리작용은 VMAT 억제에 의한 혈압강하이다.'
+    ],
+    answer: 0,
+    explanation: '세신은 쥐방울덩굴과 Asarum속 식물이며, aristolochic acid의 신독성·발암성 위험이 핵심 안전성 포인트다.'
+    },
+    {
+    id: 'p-pg26',
+    subject: 'pg',
+    week: 4,
+    question: '속단과 한속단의 비교로 옳은 것은?',
+    options: [
+        '속단과 한속단은 모두 산토끼꽃과에 속한다.',
+        '속단은 phenylethanoid인 verbascoside가 대표 성분이다.',
+        '한속단은 꿀풀과이며 verbascoside와 isoverbascoside를 함유한다.',
+        '한속단은 Panax속 식물로 dammarane형 saponin을 함유한다.',
+        '속단의 대표 성분은 reserpine이다.'
+    ],
+    answer: 2,
+    explanation: '속단=Dipsacus asperoides, 산토끼꽃과, iridoid와 asperosaponin VI. 한속단=Phlomis umbrosa, 꿀풀과, phenylethanoid glycosides.'
+    },
+    {
+    id: 'p-pg27',
+    subject: 'pg',
+    week: 4,
+    question: '시호에 관한 설명으로 옳지 않은 것은?',
+    options: [
+        'Bupleurum falcatum을 기원으로 한다.',
+        '미나리과에 속한다.',
+        'Saikosaponin a는 oleanane형 triterpenoidal saponin이다.',
+        '항염증작용과 관련된다.',
+        '미나리과에 속하므로 대표 지표성분은 반드시 furanocoumarin이다.'
+    ],
+    answer: 4,
+    explanation: '과명이 같아도 주성분 계열이 반드시 같지는 않다. 시호는 미나리과이지만 saikosaponin이 핵심이며 백지의 furanocoumarin과 구별해야 한다.'
+    },
+    {
+    id: 'p-pg28',
+    subject: 'pg',
+    week: 4,
+    question: '오약에 대한 설명으로 옳은 것은?',
+    options: [
+        'Lindera strychnifolia를 기원으로 하며 linderene과 higenamine을 함유한다.',
+        '국화과 식물로 costunolide를 함유한다.',
+        '기원식물은 Gentiana lutea이다.',
+        '대표 성분인 reserpine은 VMAT을 억제한다.',
+        '주성분은 pregnane glycoside인 cynatratoside이다.'
+    ],
+    answer: 0,
+    explanation: '오약은 녹나무과 Lindera strychnifolia이며 sesquiterpenoid인 linderene, alkaloid인 higenamine 등이 중요하다.'
+    },
+    {
+    id: 'p-pg29',
+    subject: 'pg',
+    week: 4,
+    question: '용담, 겐티아나근 및 진교의 공통적인 특징으로 가장 적절한 것은?',
+    options: [
+        '모두 미나리과에 속하며 coumarin을 함유한다.',
+        '모두 용담과에 속하며 secoiridoid 계열 성분을 함유한다.',
+        '모두 원지과에 속하며 oleanane형 saponin을 함유한다.',
+        '모두 두릅나무과에 속하며 dammarane형 saponin을 함유한다.',
+        '모두 쥐방울덩굴과에 속하며 aristolochic acid를 함유한다.'
+    ],
+    answer: 1,
+    explanation: '용담과 세 생약은 gentiopicroside 등 secoiridoid 계열 성분을 공통적으로 갖는다. 진교에는 gentianine alkaloid도 중요하다.'
+    },
+    {
+    id: 'p-pg30',
+    subject: 'pg',
+    week: 4,
+    question: '겐티아나근에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        'Gentiana lutea를 기원으로 한다.',
+        'Gentiopicroside와 swertiamarin을 함유한다.',
+        '고미건위약으로 사용된다.',
+        '위·십이지장 궤양 환자에서는 사용에 주의하거나 피해야 한다.',
+        '대표 성분은 steroid alkaloid인 stemonine이다.'
+    ],
+    answer: 4,
+    explanation: 'Stemonine은 백부근 성분이다. 겐티아나근은 secoiridoid glycoside와 쓴맛에 의한 건위작용을 연결한다.'
+    },
+    {
+    id: 'p-pg31',
+    subject: 'pg',
+    week: 4,
+    question: '우슬에 대한 설명으로 옳은 것은?',
+    options: [
+        '기원식물은 Achyranthes japonica이며 비름과에 속한다.',
+        '주요 성분은 saikosaponin a이다.',
+        '임신 중 자궁수축 위험과 관계없이 안전하게 사용할 수 있다.',
+        '주성분은 indole alkaloid인 reserpine이다.',
+        '기원식물은 Curcuma longa이다.'
+    ],
+    answer: 0,
+    explanation: '우슬은 비름과 Achyranthes japonica이며 ecdysterone, inokosterone 등 ecdysteroid 계열 성분과 자궁수축작용이 중요하다.'
+    },
+    {
+    id: 'p-pg32',
+    subject: 'pg',
+    week: 4,
+    question: '울금의 주성분과 성분 계열이 올바르게 연결된 것은?',
+    options: [
+        'Curcumin — diarylheptanoid',
+        'Curcumin — indole alkaloid',
+        'Turmerone — triterpenoidal saponin',
+        'Curcumin — secoiridoid',
+        'Turmerone — cardiac glycoside'
+    ],
+    answer: 0,
+    explanation: '울금의 curcumin은 diarylheptanoid 계열이며 turmerone은 정유 성분이다. 울금은 생강과에 속한다.'
+    },
+    {
+    id: 'p-pg33',
+    subject: 'pg',
+    week: 4,
+    question: '원지에 관한 설명으로 옳지 않은 것은?',
+    options: [
+        'Polygala tenuifolia를 기원으로 한다.',
+        '원지과에 속한다.',
+        'Onjisaponin을 함유한다.',
+        '진해·거담 및 기억력 관련 연구가 있다.',
+        '대표 성분인 reserpine은 VMAT을 억제한다.'
+    ],
+    answer: 4,
+    explanation: 'Reserpine은 인도사목의 성분이다. 원지의 onjisaponin은 triterpenoidal saponin 계열이다.'
+    },
+    {
+    id: 'p-pg34',
+    subject: 'pg',
+    week: 4,
+    question: '위령선에 대한 설명으로 옳은 것은?',
+    options: [
+        'Clematis속 식물을 기원으로 하며 미나리아재비과에 속한다.',
+        '원지과 식물로 senegin을 함유한다.',
+        '조인스정의 구성 생약은 위령선·세네가·인삼이다.',
+        '주성분은 indole alkaloid인 ajmaline이다.',
+        '주요 효능은 VMAT 억제에 의한 진정작용이다.'
+    ],
+    answer: 0,
+    explanation: '위령선은 Clematis속의 미나리아재비과 생약이다. 조인스정은 위령선·괄루근·하고초 추출물을 이용한 제제로 정리된다.'
+    },
+    {
+    id: 'p-pg35',
+    subject: 'pg',
+    week: 4,
+    question: '은시호에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        '석죽과 식물을 기원으로 한다.',
+        'Dichotomin 등 cyclopeptide 성분이 알려져 있다.',
+        '해열작용과 관련된다.',
+        '시호와 같은 Bupleurum falcatum의 다른 이름이다.',
+        'Stellaria dichotoma가 기원식물로 언급된다.'
+    ],
+    answer: 3,
+    explanation: '은시호는 시호와 이름이 비슷하지만 기원식물과 과명이 다르다. 시호는 미나리과 Bupleurum, 은시호는 석죽과 식물이다.'
+    },
+    {
+    id: 'p-pg36',
+    subject: 'pg',
+    week: 4,
+    question: '인도사목의 reserpine 작용기전으로 가장 적절한 것은?',
+    options: [
+        'VMAT 억제 → monoamine 소포 저장 감소 → 교감신경 전달 저하',
+        'COMT 억제 → catecholamine 증가 → 혈압 상승',
+        'Na⁺ channel 지속 활성화 → 강심작용',
+        'Mitochondrial complex I 억제 → 살충작용',
+        'Acetylcholinesterase 억제 → acetylcholine 증가'
+    ],
+    answer: 0,
+    explanation: 'Reserpine은 VMAT을 억제해 noradrenaline, dopamine, serotonin의 소포 저장을 고갈시키며 혈압강하·진정작용 및 우울 증상 등의 부작용과 연결된다.'
+    },
+    {
+    id: 'p-pg37',
+    subject: 'pg',
+    week: 4,
+    question: '인도사목에 대한 설명으로 옳지 않은 것은?',
+    options: [
+        'Rauwolfia serpentina를 기원으로 한다.',
+        '협죽도과에 속한다.',
+        'Reserpine은 indole alkaloid이다.',
+        'Ajmaline은 항부정맥 작용과 관련된다.',
+        'Reserpine은 신경전달물질의 소포 저장을 증가시켜 교감신경을 흥분시킨다.'
+    ],
+    answer: 4,
+    explanation: 'Reserpine은 소포 저장을 감소시킨다. Ajmaline은 항부정맥 성분으로 구별한다.'
+    },
+    {
+    id: 'p-pg38',
+    subject: 'pg',
+    week: 4,
+    question: '인삼의 주요 ginsenoside에 대한 설명으로 옳은 것은?',
+    options: [
+        'Ginsenoside는 대표적으로 dammarane형 triterpenoidal saponin이다.',
+        'Ginsenoside Rb1은 대표적인 furanocoumarin이다.',
+        'Ginsenoside Rg1은 indole alkaloid이다.',
+        '인삼은 원지과 식물이다.',
+        '인삼의 대표 성분은 rotenone이다.'
+    ],
+    answer: 0,
+    explanation: '인삼은 두릅나무과 Panax ginseng이며 ginsenoside Rb1, Rg1 등 dammarane형 triterpenoidal saponin이 핵심이다.'
+    },
+    {
+    id: 'p-pg39',
+    subject: 'pg',
+    week: 4,
+    question: '인삼의 protopanaxadiol(PPD)형과 protopanaxatriol(PPT)형의 비교로 강의 정리본에 부합하는 것은?',
+    options: [
+        'PPD형은 Rg 계열, PPT형은 Rb 계열이 대표적이다.',
+        'PPD형은 Rb·Rc 계열, PPT형은 Rg·Rf 계열이 대표적이다.',
+        'PPD형과 PPT형은 모두 indole alkaloid이다.',
+        'PPD형은 furanocoumarin, PPT형은 chromone이다.',
+        'PPD형은 세네가의 senegin과 동일한 oleanane 골격이다.'
+    ],
+    answer: 1,
+    explanation: 'PPD형은 Rb, Rc 계열, PPT형은 Rg, Rf 계열로 정리한다. 둘 다 인삼의 dammarane형 사포닌에 속한다.'
+    },
+    {
+    id: 'p-pg40',
+    subject: 'pg',
+    week: 4,
+    question: '홍삼에 관한 설명으로 옳은 것은?',
+    options: [
+        '인삼을 증숙하여 제조하며 가공 중 ginsenoside 조성이 변화한다.',
+        '원지의 뿌리를 건조한 생약이다.',
+        '대표 성분은 stemonine이다.',
+        '기원식물은 Panax notoginseng이다.',
+        '증숙 과정은 모든 ginsenoside를 reserpine으로 전환한다.'
+    ],
+    answer: 0,
+    explanation: '홍삼은 Panax ginseng을 증숙한 가공품이며, 열처리로 일부 ginsenoside의 당 부분과 malonyl기가 변화해 성분 조성이 달라진다.'
+    },
+    {
+    id: 'p-pg41',
+    subject: 'pg',
+    week: 4,
+    question: '다음 중 같은 식물과(科)에 속하는 생약만으로 묶인 것은?',
+    options: [
+        '독활 — 삼칠 — 인삼',
+        '방풍 — 백지 — 세신',
+        '목향 — 울금 — 시호',
+        '원지 — 세네가 — 백부근',
+        '부자 — 우슬 — 위령선'
+    ],
+    answer: 0,
+    explanation: '독활·삼칠·인삼은 모두 두릅나무과이다. 방풍·백지는 미나리과지만 세신은 쥐방울덩굴과이다.'
+    },
+    {
+    id: 'p-pg42',
+    subject: 'pg',
+    week: 4,
+    question: '다음 중 같은 성분 계열을 대표적으로 함유하는 생약의 연결로 가장 적절한 것은?',
+    options: [
+        '백지 — 시호 : furanocoumarin',
+        '속단 — 한속단 : phenylethanoid glycoside',
+        '용담 — 진교 : secoiridoid',
+        '세네가 — 인삼 : 동일한 oleanane형 saponin',
+        '데리스근 — 인도사목 : 동일한 indole alkaloid'
+    ],
+    answer: 2,
+    explanation: '용담과 진교는 gentiopicroside 등 secoiridoid를 공통적으로 함유한다. 속단과 한속단, 세네가와 인삼은 비슷해 보여도 대표 성분 계열 또는 골격이 다르다.'
+    },
+    {
+    id: 'p-pg43',
+    subject: 'pg',
+    week: 4,
+    question: '다음 중 기원식물과 대표 성분의 연결이 옳지 않은 것은?',
+    options: [
+        'Codonopsis pilosula — lobetyolin',
+        'Angelica dahurica — imperatorin',
+        'Polygala senega — senegin',
+        'Bupleurum falcatum — saikosaponin a',
+        'Rauwolfia serpentina — costunolide'
+    ],
+    answer: 4,
+    explanation: 'Rauwolfia serpentina는 reserpine을 함유하며 costunolide는 목향의 성분이다.'
+    },
+    {
+    id: 'p-pg44',
+    subject: 'pg',
+    week: 4,
+    question: '다음 생약 중 임신 중 자궁수축 또는 독성 위험과 관련하여 주의해야 하는 생약만으로 가장 적절하게 묶인 것은?',
+    options: [
+        '우슬 — 울금 — 대극',
+        '당삼 — 인삼 — 겐티아나근',
+        '용담 — 세네가 — 목향',
+        '독활 — 원지 — 방풍',
+        '진교 — 백부근 — 데리스근'
+    ],
+    answer: 0,
+    explanation: '우슬은 자궁수축, 울금은 자궁수축 관련 주의, 대극은 강한 사하작용과 독성 때문에 임신 중 사용을 피해야 한다. 금기와 주의의 강도는 각각 구별해야 한다.'
+    },
+    {
+    id: 'p-pg45',
+    subject: 'pg',
+    week: 4,
+    question: '다음 설명 중 옳은 것만을 모두 고른 것은?\nㄱ. 백지는 furanocoumarin을 함유한다.\nㄴ. 시호는 saikosaponin a를 함유한다.\nㄷ. 방풍은 chromone 계열 성분을 함유한다.\nㄹ. 세신의 대표 성분은 ginsenoside Rb1이다.',
+    options: [
+        'ㄱ, ㄴ',
+        'ㄱ, ㄷ',
+        'ㄴ, ㄹ',
+        'ㄱ, ㄴ, ㄷ',
+        'ㄱ, ㄴ, ㄷ, ㄹ'
+    ],
+    answer: 3,
+    explanation: 'ㄱ·ㄴ·ㄷ은 모두 옳다. 세신은 methyleugenol 등의 정유 성분 및 aristolochic acid 관련 안전성 이슈가 중요하다. Ginsenoside Rb1은 인삼 성분이다.'
+    },
+    {
+    id: 'p-pg46',
+    subject: 'pg',
+    week: 4,
+    question: '다음 설명 중 옳지 않은 것은?',
+    options: [
+        '대극의 phorbol ester는 피부 종양 촉진과 관련된다.',
+        '부자의 aconitine류는 심각한 부정맥을 유발할 수 있다.',
+        '세신의 aristolochic acid는 신독성 위험과 관련된다.',
+        '인도사목의 reserpine은 우울 증상 등의 부작용을 일으킬 수 있다.',
+        '백지의 furanocoumarin은 강한 진정작용만 나타내며 경련 위험은 없다.'
+    ],
+    answer: 4,
+    explanation: '백지의 성분은 강의 정리본에서 중추신경계 자극 및 고용량 경련 위험과 연결된다.'
+    },
+    {
+    id: 'p-pg47',
+    subject: 'pg',
+    week: 4,
+    question: '다음 생약과 성분 계열의 연결 중 옳은 것만을 모두 고른 것은?\nㄱ. 백미 — pregnane glycoside\nㄴ. 백부근 — alkaloid\nㄷ. 한속단 — phenylethanoid glycoside\nㄹ. 시호 — oleanane형 triterpenoidal saponin',
+    options: [
+        'ㄱ, ㄴ',
+        'ㄱ, ㄷ',
+        'ㄴ, ㄹ',
+        'ㄱ, ㄴ, ㄷ',
+        'ㄱ, ㄴ, ㄷ, ㄹ'
+    ],
+    answer: 4,
+    explanation: '네 연결 모두 옳다. 특히 백미와 백부근, 속단과 한속단, 시호와 다른 미나리과 생약을 교차 비교하는 문제다.'
+    },
+    {
+    id: 'p-pg48',
+    subject: 'pg',
+    week: 4,
+    question: '다음 중 생약의 기원식물 또는 사용 부위에 관한 설명으로 옳지 않은 것은?',
+    options: [
+        '부자는 Aconitum carmichaeli의 자근이다.',
+        '오두는 Aconitum carmichaeli의 모근이다.',
+        '홍삼은 Panax ginseng을 증숙하여 제조한다.',
+        '삼칠은 Panax notoginseng을 기원으로 한다.',
+        '인삼과 홍삼은 서로 다른 식물과에 속한다.'
+    ],
+    answer: 4,
+    explanation: '인삼과 홍삼은 모두 두릅나무과 Panax ginseng을 기원으로 한다. 가공법에 따라 생약명이 달라진다.'
+    },
+    {
+    id: 'p-pg49',
+    subject: 'pg',
+    week: 4,
+    question: '다음 중 약리작용과 성분 또는 생약의 연결이 가장 적절하지 않은 것은?',
+    options: [
+        'Rotenone — mitochondrial complex I 억제',
+        'Reserpine — VMAT 억제',
+        'Aconitine — Na⁺ channel 비정상적 활성화',
+        '백미의 pregnane glycoside — AChE 억제 관련 연구',
+        'Senegin — benzodiazepine 수용체 결합 억제를 통한 중추흥분'
+    ],
+    answer: 4,
+    explanation: 'Benzodiazepine 결합 관련 중추 자극·경련 위험은 백지의 성분과 연결되는 강의 포인트다. Senegin은 세네가의 사포닌 성분이다.'
+    },
+    {
+    id: 'p-pg50',
+    subject: 'pg',
+    week: 4,
+    question: '다음 생약에 대한 설명 중 옳은 것만을 모두 고른 것은?\nㄱ. 독활의 kaurenoic acid는 diterpenoid 계열이다.\nㄴ. 목향의 costunolide는 sesquiterpene lactone이다.\nㄷ. 오약의 linderene은 sesquiterpenoid 계열이다.\nㄹ. 울금의 curcumin은 diarylheptanoid 계열이다.',
+    options: [
+        'ㄱ, ㄴ',
+        'ㄱ, ㄷ',
+        'ㄴ, ㄹ',
+        'ㄱ, ㄴ, ㄷ',
+        'ㄱ, ㄴ, ㄷ, ㄹ'
+    ],
+    answer: 4,
+    explanation: '네 연결 모두 옳다. 성분의 이름만 외우지 않고 탄소 골격·계열까지 구분하는 문제다.'
+    },
+    {
+    id: 'p-pg51',
+    subject: 'pg',
+    week: 4,
+    question: '다음 중 생약과 대표적인 복합제·처방의 연결이 모두 옳은 것은?',
+    options: [
+        '원지—총명탕 / 위령선—조인스정 / 삼칠—복방단삼적환',
+        '원지—용각산 / 위령선—총명탕 / 삼칠—조인스정',
+        '세네가—조인스정 / 삼칠—총명탕 / 원지—용각산',
+        '백지—복방단삼적환 / 독활—용각산 / 울금—총명탕',
+        '오약—조인스정 / 백미—용각산 / 인도사목—총명탕'
+    ],
+    answer: 0,
+    explanation: '총명탕은 원지, 조인스정은 위령선, 복방단삼적환은 삼칠, 용각산은 세네가와 연결해 암기한다.'
+    },
     {
     id: 'p-im-w1-1',
     subject: 'im',
